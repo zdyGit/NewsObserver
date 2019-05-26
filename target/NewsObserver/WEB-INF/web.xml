@@ -12,6 +12,7 @@
   </context-param>
 
   <filter>
+    <!--  编码过滤器最好放置首位 -->
     <filter-name>CharacterEncodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
     <init-param>

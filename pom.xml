@@ -20,14 +20,15 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.10</version>
+          <scope>test</scope>
+      </dependency>
 
-    <dependency>
+
+      <dependency>
       <groupId>javaee</groupId>
       <artifactId>javaee-api</artifactId>
       <version>5</version>
@@ -36,7 +37,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
-      <version>4.2.2.RELEASE</version>
+      <version>4.2.3.RELEASE</version>
     </dependency>
 
     <dependency>
@@ -124,10 +125,17 @@
     </dependency>
 
     <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>ojdbc6</artifactId>
-      <version>11.2.0.1.0</version>
+       <groupId>mysql</groupId>
+       <artifactId>mysql-connector-java</artifactId>
+       <version>5.1.38</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.40</version>
+    </dependency>
+
 
   </dependencies>
 

@@ -1,6 +1,7 @@
 package com.zdy.dao;
 
 import com.zdy.entities.TB_User;
+import org.springframework.stereotype.Component;
 
 
 public interface ITB_User_Dao {
